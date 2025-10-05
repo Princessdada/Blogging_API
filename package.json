@@ -4,7 +4,7 @@
   "main": "db.js",
   "scripts": {
     "test": "jest --runInBand",
-    "start": "node server.js"
+    "start": "node api.js && node server.js"
   },
   "author": "",
   "license": "ISC",
