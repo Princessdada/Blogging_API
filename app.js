@@ -19,6 +19,11 @@ app.use("/blogs", blogRouter);
 
 const PORT = process.env.PORT || 3000;
 
+// redirect homepage to blogs endpoint
+app.get("/", (req, res) => {
+  res.redirect("/blogs");
+});
+
 // connect to mongodb
 const db = require("./db");
 db.connectToMongodb();
