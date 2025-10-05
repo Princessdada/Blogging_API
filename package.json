@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "db.js",
   "scripts": {
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
